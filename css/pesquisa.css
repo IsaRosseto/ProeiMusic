@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: rgb(6,0,52);
+    background: radial-gradient(circle, rgba(6,0,52,1) 0%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+}
+
+.navlateral {
+    margin: 1px;
+}
+
+.barra-lateral {
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+li {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    line-height: 20px;
+    list-style-type: none;
+}
+
+.barra-lateral ul li {
+    cursor:pointer;
+    list-style-type: none;
+
+}
+
+.barra-lateral ul a:nth-child(2) li{
+    background: linear-gradient(256.25deg, rgba(31,116,143,1) 0%, rgba(0,28,230,1) 100%);
+    list-style: none;
+    color: white;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 100px;
+    align-items: center;
+}
+
+.logoname {
+    font-style:italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 10px;
+    text-align: center;
+}
+
+
+.pagina {
+    display: flex;
+
+}
+
+/* Barra de pesquisar*/
+.container {
+    width: 50%; 
+    position: relative;  
+    margin-left: 25%;
+
+}
+
+
+
+input {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 16px;
+} 
+
+input,  button {
+    padding: 10px;
+    padding-top:2px ;
+}
+
+button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    border-radius: 20px;
+    background-color: black;
+    height:50px;
+    margin-top: 20px;
+  }
+
+.lupapesquisa {
+    height: 35px;
+  }
+
+  input:hover {
+    background-color: black;
+  }
+
+/* Pesquisas recentes */
+
+  .recentes {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  
+.historicolista {
+    background-color: black;
+    padding-bottom: 20px;
+
+}
+
+.historicolista p {
+    color: grey;
+    padding-left: 15px;
+}
+
+.historicolista li {
+    color: grey;
+    border-bottom: 1px solid rgb(21, 21, 21);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px ;
+    cursor: pointer;
+}
+
+h6 {
+    margin-left: 40%;
+    position: fixed;
+}
+
+.remove {
+    width: 20px;
+    padding-left: 5px;
+    margin-left: 43%;
+    position: fixed;
+}
+
+
+/*ads vertical*/
+
+.adsvertical {
+    margin-left: 80px;
+    background-color: rgba(0, 0, 0, 0.713);
+    border-radius: 15px;
+    margin-top: -15px;
+
+}
+
+.adsvertical img {
+    padding: 8px;
+    width: 170px;
+    height: 540px;
+    border-radius: 15px;
+    
+}
+
